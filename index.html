@@ -555,7 +555,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 box-contact-form">
-					<form action="contact.php" id="contact-form" method="post" enctype="multipart/form-data">
+					<form action="https://mailthis.to/ajju.patel.is.here" id="contact-form" method="post" enctype="multipart/form-data">
 						<div class="messages"></div>
 						<div class="controls">
 							<div class="row">
@@ -578,7 +578,11 @@
 										<textarea id="form_message" name="message" placeholder="Your Message *"
 											required="required" rows="4"></textarea>
 
-									</div>
+									<div>
+									<input type="hidden" name="_subject" value="response from website">
+								</div>
+								<div>
+									<input type="hidden" name="_after" value="https://digitalraj.in/">
 								</div>
 								<div class="col-md-12">
 									<button type="submit" name="submit" id="submitButton" class="btn btn-send"
